@@ -1,1 +1,30 @@
 # documentation
+# Created: 2024-08-09
+# Updated: 2024-08-09
+
+= Documentation
+
+== create a new repository on the command line
+
+* Enter the following commands in a *Command Line*.
++
+----
+echo "# documentation" >> readme.adoc
+git init
+git add readme.adoc
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/daystools/documentation.git
+git push -u origin main
+----
+
+== push an existing repository from the command line
+
+* Enter the following commands in a *Command Line*.
++
+----
+git remote add origin https://github.com/daystools/documentation.git
+git branch -M main
+git push -u origin main
+----
+

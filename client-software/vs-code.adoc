@@ -1,0 +1,86 @@
+# Created: 2024-06-08
+# Updated: 2024-08-09
+
+= Visual Studio Code
+
+== Installation
+
+=== Extensions
+
+* Select *Extensions*.
+* Install the following extentions.
++
+....
+* AsciiDoc
+* Django
+* ES7+ React/Redux/React-Native snippets
+* isort
+* JavaScript (ES6) code snippets
+* Jupyter
+* Jupyter Cell Tags
+* Jupyter Keymap
+* Jupyter Notebook Renderers
+* Jupyter Slide Show
+* Pylance
+* Python
+* Python Debugger
+* Vim
+* Copy On Select
+
+From Traversy Media
+* Prettier - Code formatter
+* GitHub Copilot
+* Live Server
+* Multiple Cursor Case Preserve
+* Git History
+* Git Lens
+* Code Runner
+* Markdown Preview Enhanced
+* Console Ninja
+* RegEx Snippets
+* Polacode
+* Code Spell Checker
+* Document This
+* ChatGPT
+* Peacock
+* Postman
+* REST Client
+* Bookmarks
+* Codiumate/Codium AI
+* Quokka
+....
+
+==== Prettier - Code Formatter
+
+* Select *Gear icon > Settings*.
+* Type *format* in the *Search settings* field.
+* Select *User* tab.
+* Select *Prettier - Code formatter* for the *Editor: Default Formatter*.
+* Check *Editor: Format On Save*.
+* Close *Settings*.
+
+== Configuration
+
+== Usage
+
+* Select *File > Open Folder*.
+* Select *<Folder>*.
+* Click *Open*.
+* Select *Source Control*.
+* Click *Initialize Repository*.
+* Click *Publish Branch*.
+* Select *Publish to GitHub private repositroy*.
+* Click *Cancel* on *Can't push refs to remote* error message.
+* Select *Terminal > New Terminal*.
+* Type the following command lines.
++
+[source,powershell]
+----
+echo "= BroCode-JS" >> readme.adoc
+git init
+git add readme.adoc
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+----
+
